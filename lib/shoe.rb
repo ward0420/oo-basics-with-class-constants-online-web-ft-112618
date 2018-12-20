@@ -7,10 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    
-    brand.each do |i| 
-      i.uniq
-    binding.pry
+    brand.each do |i| i.uniq
     BRANDS << brand
   end
   end
