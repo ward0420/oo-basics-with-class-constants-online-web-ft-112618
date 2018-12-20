@@ -8,6 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     brand {|i| i.uniq}
+    BRANDS.include
     BRANDS << brand
   end
   
