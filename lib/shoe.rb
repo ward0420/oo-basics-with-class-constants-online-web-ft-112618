@@ -10,7 +10,6 @@ class Shoe
     brand {|i| i.uniq}
     BRANDS << brand
   end
-  end
   
 
   def cobble
